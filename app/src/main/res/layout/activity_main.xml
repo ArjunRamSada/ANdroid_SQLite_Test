@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nidbid.sqlite.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Load Your Data"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <Button
+        android:id="@+id/BTLGN"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_above="@+id/BTSUP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/BTSUP"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/BTLGN"
+        android:layout_marginBottom="82dp" />
+</RelativeLayout>
